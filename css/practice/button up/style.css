@@ -1,5 +1,42 @@
 .search, .add, .create{
     display: block;
-    margin-bottom: 10px;
-    height: 40px;
+    margin-left: 100px;
+    
+    
+    
 }
+
+.search {
+    height: 30px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    width: 140px;
+    color: rgba(34, 202, 214, 0.849);
+    border-radius: 20px;
+    border-color: rgb(63, 230, 230);
+    border: 2px solid;
+    
+}
+.add{
+    margin-bottom: 20px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: rgb(91, 238, 201);
+    font-size: x-large;
+    color: white;
+    border: none;
+}
+.create{
+    height: 40px;
+    width: 200px;
+    font-weight: lighter;   
+    font-size: larger;
+    font-style: italic;
+    background-color: #3366ff;
+    color: white;
+    box-shadow: 5px 5px 5px black;
+}
+    
+
