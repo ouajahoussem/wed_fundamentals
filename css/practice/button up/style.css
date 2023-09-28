@@ -1,0 +1,5 @@
+.search, .add, .create{
+    display: block;
+    margin-bottom: 10px;
+    height: 40px;
+}
