@@ -1,0 +1,37 @@
+* {
+    font-family: 'roboto', sans-serif;
+}
+.nav {
+    background-color: rgba(0, 0, 0, 0.822);
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-links {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    
+}
+.nav-title {
+    color: white;
+    margin-left: 20px;
+
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    
+}
+.btn {
+    color: white;
+    background-color: rgb(10, 146, 146);
+    width: 100px;
+    height: 40px;
+    box-shadow: 7px 7px black;
+    font-size: large;
+    border: none;
+}
+
