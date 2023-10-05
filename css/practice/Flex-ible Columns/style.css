@@ -1,0 +1,32 @@
+.row{
+    display: flex;
+    height: 100px;
+    
+    color: white;
+    font-size: larger;
+}
+.col{
+    
+    flex: 1;
+}
+.col-2{
+    flex: 2;
+    
+}
+.col-3{
+    flex: 3;
+}
+.col ,.col-2 ,.col-3{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(21, 122, 89);
+}    
+    
+    
+    
+    
+    
+    
+    
