@@ -1,0 +1,52 @@
+*{
+    font-family: serif;
+    
+}
+.container{
+    
+    margin: 50px auto;
+    width: 800px;
+    border-style: groove;
+    height: 400px;
+}
+
+.userimg{
+    height: 100px;
+    position: relative;
+    top: 50px;
+    left: 40px;
+    border-style:solid;
+    border-radius: 50%  ;
+    border-color: lightgrey;
+    
+    
+    
+    
+}
+.top{
+    background-color: cadetblue;
+    height: 100px;
+
+    
+
+    
+    
+}
+.bot{
+    height: 200px;
+    margin: 40px ;
+    padding-top: 5px;
+}
+.icons{
+    height: 20px;
+}
+
+p{
+    font-size: 20px;
+    
+}
+    
+    
+    
+    
+    
