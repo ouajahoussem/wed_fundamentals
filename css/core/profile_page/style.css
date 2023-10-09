@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'roboto', sans-serif;
+}
+.top{
+    margin: 0 auto;
+    background-color: #282828;
+
+}
+.nav {
+    background-color: #282828;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    width: 1080px;
+    margin: 0 auto;
+    
+    
+    
+    
+    
+}
+.nav-links {
+    
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    
+    
+    
+}
+
+.nav-title {
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+    
+
+}
+strong{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.nav a {
+    color: lightgray;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.btn {
+    color: white;
+    background-color: rgb(10, 146, 146);
+    width: 100px;
+    height: 40px;
+    box-shadow: 10px 10px black;
+    font-size: large;
+    border: none;
+}
+.container{
+    display: flex;
+    width: 1080px;
+    margin: 40px auto;
+    
+}
+.col-1{
+    flex: 2;
+    
+}
+.col-2{
+    margin-left: 30px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+* {
+    font-family: serif;
+
+}
+.usercard {
+    border: groove lightgray;
+
+
+    
+}
+
+
+
+.userimg {
+    height: 100px;
+    position: relative;
+    top: 50px;
+    left: 40px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: lightgrey;
+}
+
+.header {
+    background-color: cadetblue;
+    height: 100px;
+}
+
+.bot {
+    
+    margin: 40px;
+    padding-top: 30px;
+    
+    
+
+}
+.connections-2{
+    margin-top: 30px;
+}
+
+.icons {
+    height: 20px;
+}
+
+p, a {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.header-2{
+    background-color: #282828;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    
+    
+    
+    
+} 
+
+.header-2 span{
+    color: black;
+    font-size: 25px;
+    padding: 5px 12px;
+    
+    background-color: lightgray;
+    border-radius: 50%;
+    
+    
+}
+.icon-s{
+    height: 40px;
+    border-radius: 20px;
+    
+}
+
+
+.bot-connection{
+    border: groove lightgray;
+    font-size: 20px;
+    
+    
+}
+.todd, .phil, .adrien, .anne, .alayne, .arry{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+}
+
+.star, .end {
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+#linkformore{
+    padding: 10px 20px;
+    
+    border-top: groove lightgrey;
+    
+}
+.education{
+    margin-top: 30px;
+}
+.ed-head{
+    background-color: #282828;
+    padding: 15px 30px;
+    color: white;
+}
+.ed-bot{
+    padding: 20px 40px;
+    border: groove lightgray;
+    
+
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+}
+#date{
+    color: gray;
+    
+}
+
+
+    
+    
+    
+    
+
+
+
+
+

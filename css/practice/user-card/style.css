@@ -1,52 +1,45 @@
-*{
+* {
     font-family: serif;
-    
+
 }
-.container{
-    
+
+.container {
+
     margin: 50px auto;
     width: 800px;
-    border-style: groove;
+    border: groove lightgray;
+
+
     height: 400px;
 }
 
-.userimg{
+.userimg {
     height: 100px;
     position: relative;
     top: 50px;
     left: 40px;
-    border-style:solid;
-    border-radius: 50%  ;
+    border-style: solid;
+    border-radius: 50%;
     border-color: lightgrey;
-    
-    
-    
-    
 }
-.top{
+
+.top {
     background-color: cadetblue;
     height: 100px;
-
-    
-
-    
-    
 }
-.bot{
+
+.bot {
     height: 200px;
-    margin: 40px ;
+    margin: 40px;
     padding-top: 5px;
+
 }
-.icons{
+
+.icons {
     height: 20px;
 }
 
-p{
+p {
     font-size: 20px;
-    
+
 }
-    
-    
-    
-    
-    
