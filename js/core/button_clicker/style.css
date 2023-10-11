@@ -1,0 +1,102 @@
+.nav{
+    height: 80px;
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background-color: lightgray;
+    justify-content: space-around;
+    
+}
+h1{
+    
+    
+}
+.btn{
+    
+    font-size:larger;
+    height: 30px ;
+    width: 80px;
+    background-color: #1E90FF;
+    box-shadow: 5px 5px black;
+    
+}
+.search{
+    height: 35px;
+    width:350px;
+    font-size: larger;
+}
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+.col-1{
+    flex: 2;
+    
+    
+    
+    
+}
+.top-left{
+    display: flex;
+    border: solid;
+}
+.col-2{
+    flex: 1;
+    
+    margin-left: 20px;
+}
+.container{
+    width: 1000px;
+    margin: 20px auto;
+    display: flex;
+}
+.ninja{
+    margin: 40px;
+    flex: 1;
+    
+    
+    
+}
+.ninjitsu{
+    display: flex;
+    
+    flex: 2;
+    align-items: center;
+}
+p{
+    font-size: 25px;
+    
+}
+.btn-likes{
+    background-color: #FFD700;
+    height: 40px;
+    width: 90px;
+    font-weight: 600;
+    box-shadow: 2px 2px black;
+
+}
+.title{
+    font-size: 45px;
+    
+}
+#noun{
+    margin-left: 20px;
+}
+.bot-left{
+    margin-top: 20px;
+    display: flex;
+    border: solid;
+}
+.right{
+    border: solid;
+    padding: 20px 40px;
+}
+.add{
+    background-color: #3CB371;
+    height: 40px;
+    width: 250px;
+    margin-top: 20px;
+    font-size: 20px;
+    box-shadow: 3px 3px black;
+}
