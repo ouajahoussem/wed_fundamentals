@@ -1,12 +1,11 @@
-function loginbtn(el){
-    console.log(el)
-    if (el.innertext === "Login"){
-        el.innertext = "Logout"
+function login(el){
+    if(el.innerText=="Login"){
+        el.innerText="Logout"
     }
-
-
-    else{
-        el.innertext = "Login"
+    else {
+        el.innerText="Login"
+    }
 }
-    
+function hide(el){
+    el.remove()
 }

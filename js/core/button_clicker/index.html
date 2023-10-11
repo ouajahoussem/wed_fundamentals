@@ -14,7 +14,7 @@
         <div class="nav">
             <h1>Dojonary</h1>
             <input type="text" name="research" placeholder="search" class="search">
-            <button class="btn" onclick="loginbtn(this)">Login</button>
+            <button class="btn" onclick="login(this)">Login</button>
 
         </div>
     </div>
@@ -27,7 +27,7 @@
                     <h1 class="title">ninja</h1>
                     <p><em id="noun">noun</em></p><br>
                     <p>plural:&nbsp;<em>ninjas</em></p><br>
-                    <button class="btn-likes">13 likes</button>
+                    <button class="btn-likes" onclick="alert('ninja was liked')">13 likes</button>
 
                 </div>
                 <div class="ninjitsu">
@@ -67,7 +67,7 @@
                     Dojonary is <br>
                     defined by <strong>YOU</strong>
                 </p>
-                <button class="add">Add Definition</button>
+                <button class="add" onclick="hide(this)">Add Definition</button>
             </div>
 
         </div>
