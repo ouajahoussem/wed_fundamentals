@@ -9,3 +9,4 @@ function login(el){
 function hide(el){
     el.remove()
 }
+
