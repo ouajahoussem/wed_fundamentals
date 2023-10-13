@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
 .nav{
     height: 80px;
     width: 1000px;
@@ -25,10 +29,8 @@ h1{
     height: 35px;
     width:350px;
     font-size: larger;
-}
-*{
-    margin: 0;
-    font-family: sans-serif;
+    padding-left: 10px;
+    border: 2px solid;
 }
 .col-1{
     flex: 2;
