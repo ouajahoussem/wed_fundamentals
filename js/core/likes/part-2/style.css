@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.nav{
+    margin: 0 auto;
+    height: 50px;
+    width: 900px;
+    background-color: black;
+    color: white;
+}
+h1{
+    padding: 5px 20px;
+    font-family: sans-serif;
+    
+}
+img{
+    height: 100px;
+    padding: 20px 30px;
+}
+.main{
+    margin: 20px auto;
+    width: 900px;
+    display: flex;
+    gap: 20px;
+}
+.col-1{
+    
+}
+.users{
+    border: 3px solid;
+    margin-bottom: 20px;
+    
+    padding: 20px 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#btn{
+    width: 80px;
+    height: 40px;
+    background-color: rgb(223, 223, 12);
+    box-shadow: 3px 3px 3px;
+    font-size: 20px;
+}
+.col-2{
+    
+    flex: 2;
+}
+h2{
+    text-align: center;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+.usercard{
+    width: 170px;
+    height: 250px;
+    border: 3px solid;
+    
+}
+#link{
+    
+    
+    margin-bottom: 20px;
+    padding-left: 10px;
+    font-family: sans-serif;
+    font-size: 20px ;
+    
+}
+h3{
+    font-size: 20px;
+    font-size: 25px;
+    
+    padding-left: 20px;
+    
+}
+.top-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
