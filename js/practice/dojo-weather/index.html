@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+
+            <div class="nav">
+                <h1>DojoWeather</h1>
+                <div class="links">
+                    <a href="#" onclick="loading()">Burbank</a>
+                    <a href="#" onclick="loading()">Chicago</a>
+                    <a href="#" onclick="loading()">Dallas</a>
+                </div>
+            </div>
+        </div>
+        <div class="main">
+
+            <div class="temp">
+                <h2>San Jose</h2>
+                <div class="options">
+                    <p>show temperature in </p>
+                    <select name="temperature" id="select" onchange="convert(this)">
+                        <option>°C</option>
+                        <option>°F</option>
+                    </select>
+                </div>
+    
+            </div>
+            <div class="days">
+                <div class="result">
+                    <h2>today</h2>
+                    <img src="assets/some_rain.png" alt="rainycloudimg">
+                    <h4>some rain</h4>
+                    <p class="spans">
+                        <span class="max" id="temp1">24</span>
+                        <span class="min" id="temp2">18</span>
+                    </p>
+
+
+                </div>
+                <div class="result">
+                    <h2>tomorrow</h2>
+                    <img src="assets/some_sun.png" alt="rainycloudimg">
+                    <h4>some sun</h4>
+                    <p class="spans">
+                        <span class="max" id="temp3">27</span>
+                        <span class="min" id="temp4">19</span>
+                    </p>
+
+
+                </div>
+                <div class="result">
+                    <h2>friday</h2>
+                    <img src="assets/some_clouds.png" alt="rainycloudimg">
+                    <h4>some clouds</h4>
+                    <p class="spans">
+                        <span class="max" id="temp5">21</span>
+                        <span class="min" id="temp6">16</span>
+                    </p>
+
+
+                </div>
+                <div class="result">
+                    <h2>saturday</h2>
+                    <img src="assets/some_sun.png" alt="rainycloudimg">
+                    <h4>some sun</h4>
+                    <p class="spans">
+                        <span class="max"  id="temp7">26</span>
+                        <span class="min"  id="temp8">21</span>
+                    </p>
+
+
+                </div>
+
+            </div>
+            <div class="footer">
+                <img src="assets/cookie.png" alt="cookieimg" id="cookie">
+                <div class="stop">
+                    <h3>Stop! Cookie time</h3>
+                    <p>
+                        We use cookies (sadly not the edible ones) to personalize <br>
+                        content and ads,to provide social media features and to <br> analyze our traffic. <a href="#">Read more...</a>
+                    </p>
+                </div>
+                <button onclick="accept()">I Accept</button>
+
+            </div>
+        </div>
+
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

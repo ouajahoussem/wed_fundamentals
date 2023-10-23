@@ -1,0 +1,136 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+.top{
+    background-color: #6699FF;
+}
+.nav{
+    
+    color: white;
+    display: flex;
+    height: 60px;
+    width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+    
+}
+.links{
+    
+    width: 50%;
+    
+    font-size: 21px;
+    
+    justify-content: space-around;
+    display: flex;
+    
+}
+.links >a{
+    color: white;
+    text-decoration: none;
+}
+.main{
+    width: 1000px;
+    margin: 0 auto;
+    
+}
+.temp{
+    padding-bottom: 20px;
+    margin: 20px 0 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-bottom: 2px solid;
+}
+.options{
+    display: flex;
+    gap: 20px;
+    
+    
+}
+.days{
+    display: flex;
+    
+    justify-content: space-between;
+    
+}
+.result{
+    background-color: lightgrey;
+    height: 350px;
+    width: 230px;
+    font-family: sans-serif;
+    
+    padding-top: 10px;
+    
+    
+}
+img {
+    border-radius: 50%;
+    height: 120px;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+} 
+.result > h2{
+    
+    text-align: center;
+}
+h4{
+    text-align: center;
+    padding-bottom: 50px;
+    
+}
+span{
+    
+    padding-bottom: 20px;
+}
+.spans{
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    justify-content: space-around;
+}
+.max::after , .min::after{
+    content: "°";
+}
+.max{
+    color: red;
+}
+.min{
+    color: blue;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px solid;
+    background-color: #DCDCDC;
+    margin-top: 10px;
+    
+}
+#cookie{
+    margin-left: 0;
+    
+    width: inherit;
+    height: 100px;
+}
+button{
+    height: 40px;
+    width: 100px;
+    background-color: #6699FF;
+    box-shadow: 5px 5px 5px;
+    font-family: serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.stop{
+    
+    width: 50%;
+    font-size: 20px;
+}
+
